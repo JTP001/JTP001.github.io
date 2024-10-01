@@ -17,24 +17,24 @@
     <title>My Personal Website</title>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100 mb-4">
     <header class="navbar navbar-expand-lg navbar-dark flex-column flex-md-row bg-dark">
         <div class="navbar-nav-scroll">
             <ul class="navbar-nav bd-navbar-nav flex-row">
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" href="projects.html">Projects</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </header>
 
-    <main class="my-3 text-center justify-content-center">
+    <main class="my-4 pb-4 text-center justify-content-center">
         <div class="row d-flex justify-content-center mb-4">
             <div class="col-md-5 mt-4">
                 <div class="card">
@@ -85,6 +85,33 @@
                             <p class="card-text">The links to the github pages for these two mini-projects are here:</p>
                             <a href="https://github.com/JTP001/channel_scraper" class="card-link">Channel scraper</a>
                             <a href="https://github.com/JTP001/search_scraper" class="card-link">Search scraper</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mb-4">
+            <div class="col-md-5 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="bookManagement.png">
+                    <div class="card-body">
+                        <div class="row d-flex">
+                            <div class="col-md-10">
+                                <h4 class="card-title">Inventory Management Project</h4>
+                            </div>
+                            <div class="col-md-1">
+                                <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#inventoryProjMore" aria-expanded="false" aria-controls="inventoryProjMore">
+                                    Details...
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="collapse m-3 text-start" id="inventoryProjMore">
+                            <p class="card-text">A project I did for a software design challenge in an application to an internship.</p>
+                            <p class="card-text">It is a simple book inventory management system using Django, Bootstrap and SQLite.</p>
+                            <p class="card-text">Because it was made for a design challenge, it was made to the specifications asked for, meaning some functionality like deleting inventory that wasn't asked for isn't included.</p>
+                            <p class="card-text">The link to the github page for this project is here:</p>
+                            <a href="https://github.com/JTP001/bookManagement" class="card-link">Project repository</a>
                         </div>
                     </div>
                 </div>
